@@ -11,19 +11,36 @@ int main(){
     switch (opt){
         case 1:
             cout<<"Monday Classes\n...................."<<endl;
-            cout<<"\t1. BBIT 1106: Math for Biz"<<endl;
+            cout<<"\t1. BBIT 1106: Math for Bussiness computing"<<endl;
             cout<<"\t2. BBIT 1102: Intro to Programming"<<endl;
             break;
             
         case 2:
             cout<<"Tuesday Classes\n..................."<<endl;
             cout<<"\t2. BBIT 1102: Intro to Programming"<<endl;
-            cout<<"\t1. BBIT 1104: Ethics"<<endl;
+            cout<<"\t1. BBIT 1104: Intro to Ethics"<<endl;
             break;
-        /*Please continue code from this point 
-        for the rest of the weekdays*/
+        
+        case 3:
+            cout<<"Wednesday Classes\n..................."<<endl;
+            cout<<"\t1. BBIT 1103: Math For Business"<<endl;
+            cout<<"\t2. BBIT 1105: Theology"<<endl;
+            cout<<"\t2. BBIT 1105: Fundamentals of IT"<<endl;
+            break;
+
+        case 4:
+            cout<<"Thursday Classes\n..................."<<endl;
+            cout<<"\t1. BBIT 1101: Accounting"<<endl;
+            cout<<"\t2. BBIT 1206: Fundamental Of IT"<<endl;
+            break;
+
+        case 5:
+            cout<<"Friday Classes\n..................."<<endl;
+            cout<<"\t1. BBIT 1204: Business Computing"<<endl;
+
         
         default:
             cout<<"Invalid Input";          
     }
-    return 0;}
+    return 0;
+    }
